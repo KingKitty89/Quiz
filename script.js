@@ -95,22 +95,6 @@ function startQuiz() {
     choice4.addEventListener("click", evaluate);
 }
 
-// function startTimer()   {
-//     index = 0;
-//     countdownEl.textContent = count;
-//     interval =  setInterval(function()  {
-//         count--;
-//         countdownEl.textContent = "Time: " + count;
-
-//         if (count === 0)    {
-//             clearInterval(interval);
-//             // alert("Time's up!")
-//             timesUpFunction();
-//         }
-
-//     }, 1000);
-// }
-
 function populateQuestions(index) {
     var temp = questionArr[index];
     currAnswer = temp.answer;
