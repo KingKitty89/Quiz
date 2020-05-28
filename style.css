@@ -8,10 +8,22 @@ body    {
     display: none;
 }
 
-#choices    {
+#choices {
     display: none;
     text-align: center;
 }
+
+#choice1{margin-top: 5px;
+margin-bottom: 5px;}
+
+#choice2{margin-top: 5px;
+    margin-bottom: 5px;}
+
+#choice3{margin-top: 5px;
+    margin-bottom: 5px;}
+
+#choice4{margin-top: 5px;
+    margin-bottom: 5px;}
 
 h1  {
     justify-content: center;
@@ -34,7 +46,6 @@ h1  {
     margin: 10px;
     padding: 10px 50px;
     border-radius: 6%;
-
 }
 
 #times-up   {
@@ -52,26 +63,10 @@ h1  {
     display: none;
 }
 
-#answer-buttons {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 40%;
-    justify-content: center;
-    text-align: center;
-}
-
-.answer-button {
-    margin: 10px;
-    padding: 10px 50px;
-    border-radius: 6%;
-}
-
 #intro  {
     display: block;
     justify-content: center;
 }
-
-
 
 #high-scores    {
     display: none;
