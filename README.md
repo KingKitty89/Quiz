@@ -18,7 +18,7 @@ video demo of working application: https://drive.google.com/file/d/1mNxJ9sptz9SA
 ## **Technology Stack**
 * HTML 
 * CSS 
-* Javascript
+* JavaScript
 
 ## **Usage**
 
